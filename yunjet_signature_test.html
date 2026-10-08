@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>윤제트 시그니처 도감 테스트</title>
+<style>
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    font-family:"Noto Sans KR","Malgun Gothic",sans-serif;
+    background:linear-gradient(180deg,#fff7fb 0%,#fff 45%,#fff7fb 100%);
+    color:#3d3038;
+  }
+  .wrap{max-width:900px;margin:auto;padding:28px 16px 60px}
+  .hero{
+    text-align:center;padding:34px 20px 28px;
+    background:rgba(255,255,255,.9);
+    border:1px solid #f4d8e7;border-radius:28px;
+    box-shadow:0 12px 35px rgba(214,120,164,.12);
+    margin-bottom:22px;
+  }
+  .badge{
+    display:inline-block;padding:6px 13px;border-radius:999px;
+    background:#fff0f7;color:#d65391;font-size:12px;font-weight:800;
+    letter-spacing:.5px;margin-bottom:10px;
+  }
+  h1{margin:0;color:#d64f91;font-size:32px}
+  .sub{margin:10px 0 0;color:#9a7b8a;font-size:14px}
+  .category{
+    margin:22px 0;
+    background:#fff;border:1px solid #f1d9e5;border-radius:24px;
+    overflow:hidden;box-shadow:0 8px 25px rgba(180,100,140,.08);
+  }
+  .cat-title{
+    padding:18px 20px;background:linear-gradient(90deg,#fff0f7,#fff);
+    border-bottom:1px solid #f5e1eb;
+    font-size:20px;font-weight:900;color:#c94b87;
+  }
+  .grid{
+    display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;
+    padding:16px;
+  }
+  .card{
+    border:1px solid #f0e1e8;border-radius:18px;padding:14px;
+    background:#fffafa;display:flex;gap:13px;align-items:center;
+  }
+  .thumb{
+    width:86px;height:86px;flex:0 0 86px;border-radius:16px;
+    border:1px dashed #e9b9cf;background:#fff1f7;
+    display:flex;align-items:center;justify-content:center;
+    color:#d77ba5;font-size:12px;font-weight:800;text-align:center;
+  }
+  .name{font-weight:900;font-size:16px;margin-bottom:7px}
+  .price{
+    display:inline-block;padding:5px 9px;border-radius:9px;
+    background:#fff0f5;color:#d94e8e;font-size:13px;font-weight:900;
+  }
+  .note{margin-top:6px;font-size:12px;color:#a28a95}
+  .footer{text-align:center;color:#b29aa6;font-size:12px;margin-top:28px}
+  @media(max-width:650px){
+    .grid{grid-template-columns:1fr}
+    h1{font-size:27px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <section class="hero">
+    <div class="badge">YUNJET SIGNATURE BOOK</div>
+    <h1>🎀 윤제트 시그니처 도감 🎀</h1>
+    <p class="sub">아래로 스크롤해서 종류별 시그니처를 확인해주세요.</p>
+  </section>
+
+  <section class="category">
+    <div class="cat-title">💗 기본 시그</div>
+    <div class="grid">
+      <div class="card"><div class="thumb">시그 이미지<br>자리</div><div><div class="name">윤제트</div><span class="price">672개</span></div></div>
+      <div class="card"><div class="thumb">시그 이미지<br>자리</div><div><div class="name">윤제트 이쁜이</div><span class="price">282개</span></div></div>
+      <div class="card"><div class="thumb">시그 이미지<br>자리</div><div><div class="name">윤모찌</div><span class="price">672개</span></div></div>
+      <div class="card"><div class="thumb">시그 이미지<br>자리</div><div><div class="name">윤쿠쿨</div><span class="price">500개</span></div></div>
+      <div class="card"><div class="thumb">시그 이미지<br>자리</div><div><div class="name">윤멘장</div><span class="price">672개</span></div></div>
+    </div>
+  </section>
+
+  <section class="category">
+    <div class="cat-title">🌸 기념일 · 이벤트 시그</div>
+    <div class="grid">
+      <div class="card"><div class="thumb">시그 이미지<br>자리</div><div><div class="name">100일</div><span class="price">100개</span><div class="note">기념일 시그</div></div></div>
+      <div class="card"><div class="thumb">시그 이미지<br>자리</div><div><div class="name">한복방셀</div><span class="price">500개</span></div></div>
+      <div class="card"><div class="thumb">시그 이미지<br>자리</div><div><div class="name">추석 노방종</div><span class="price">100개</span></div></div>
+    </div>
+  </section>
+
+  <section class="category">
+    <div class="cat-title">👑 특별 · 콘텐츠 시그</div>
+    <div class="grid">
+      <div class="card"><div class="thumb">시그 이미지<br>자리</div><div><div class="name">비타제트</div><span class="price">500개</span></div></div>
+      <div class="card"><div class="thumb">시그 이미지<br>자리</div><div><div class="name">라운딩</div><span class="price">500개</span></div></div>
+    </div>
+  </section>
+
+  <div class="footer">TEST VERSION · 윤제트 시그니처 도감</div>
+</div>
+</body>
+</html>
